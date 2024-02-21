@@ -95,7 +95,7 @@ function HireMeModal({ onClose, onRequest }) {
 										placeholder="Project description"
 									></textarea>
 								</div>
-								<input type="hidden" name="_next" value="http://localhost:3000"/>
+								<input type="hidden" name="_next" value={process.env.NEXT_PUBLIC_DOMAIN}/>
 								<div className="mt-6 pb-4 sm:pb-1">
 									<span
 										className="px-4
