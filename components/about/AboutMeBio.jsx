@@ -6,12 +6,12 @@ function AboutMeBio() {
 	const [aboutMe, setAboutMe] = useState(aboutMeData);
 	return (
 		<div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-			<div className="w-full sm:w-1/4 mb-7 sm:mb-0 ">
+			<div className="w-full sm:w-1/4 mb-7 sm:mb-0 h-56">
 				<Image
 					src="/images/profile.jpg"
 					width={6000}
 					height={4000}
-					className="rounded-lg h-56 w-64"
+					className="rounded-lg "
 					alt="Profile Image"
 				/>
 			</div>
