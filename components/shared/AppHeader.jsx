@@ -44,8 +44,8 @@ function AppHeader() {
 			{/* Header */}
 			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
 				{/* Header menu links and small screen hamburger menu */}
-				<div className="flex justify-between items-center px-4 sm:px-0">
-					<div>
+				<div className="flex  items-center px-4 sm:px-0">
+					<div className='flex flex-1'>
 						<Link href="/">
 							{activeTheme === 'dark' ? (
 								<Image
@@ -81,7 +81,7 @@ function AppHeader() {
 					</div>
 
 					{/* Small screen hamburger menu */}
-					<div className="sm:hidden">
+					<div className="sm:hidden ml-3">
 						<button
 							onClick={toggleMenu}
 							type="button"
