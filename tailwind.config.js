@@ -34,5 +34,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require('@tailwindcss/forms')],
+	plugins: [require('flowbite/plugin'),require('@tailwindcss/forms')],
 };
