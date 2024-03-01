@@ -54,7 +54,7 @@ const experience = () => {
           <Timeline.Point icon={HiCalendar} />
           <Timeline.Content>
             <Timeline.Time>6 January 2024 - 6 Febuaray 2024</Timeline.Time>
-            <Timeline.Title>SM Exports</Timeline.Title>
+            <Timeline.Title>Fluffy Town</Timeline.Title>
             <Timeline.Body>
               I worked on a freelancing project to develop an e-commerce
               website, using Next.js for the frontend and Shopify.
