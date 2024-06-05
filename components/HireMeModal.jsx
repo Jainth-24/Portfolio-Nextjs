@@ -7,6 +7,8 @@ const selectOptions = [
 	'Mobile Application',
 	'UI/UX Design',
 	'Branding',
+	'Full time oppurtunites',
+	'Internships'
 ];
 
 function HireMeModal({ onClose, onRequest }) {

@@ -57,9 +57,24 @@ const experience = () => {
             <Timeline.Title>Fluffy Town</Timeline.Title>
             <Timeline.Body>
               I worked on a freelancing project to develop an e-commerce
-              website, using Next.js for the frontend and Shopify.
-              The site, designed for optimal user experience, was built entirely
-              in Tailwind CSS.
+              website, using Next.js for the frontend and Shopify. The site,
+              designed for optimal user experience, was built entirely in
+              Tailwind CSS.
+            </Timeline.Body>
+          </Timeline.Content>
+        </Timeline.Item>
+        <Timeline.Item>
+          <Timeline.Point icon={HiCalendar} />
+          <Timeline.Content>
+            <Timeline.Time>6 March, 2023 - Current</Timeline.Time>
+            <Timeline.Title>
+              Better Tomorrow Training Institute Pvt Ltd.
+            </Timeline.Title>
+            <Timeline.Body>
+              At Better Tomorrow Training Institute, I work as a Software
+              Developer and MERN Stack Trainer since March 2024, developing
+              software products using React.js, Nest.js, and Express.js. I also
+              train students in MERN stack development across various colleges.
             </Timeline.Body>
           </Timeline.Content>
         </Timeline.Item>
