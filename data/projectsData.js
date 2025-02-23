@@ -13,6 +13,7 @@ export const projectsData = [
     title: "SM Exports Ecommerce",
     url: "https://smexports-eta.vercel.app/",
     category: "Web Application",
+    status: "Delivered",
     img: "/images/SM-exports.png",
     ProjectHeader: {
       title: "SM Exports",
@@ -87,46 +88,13 @@ export const projectsData = [
             "Outcome:\nThe project aims to deliver a robust and user-friendly e-commerce website that meets the needs of both customers and the business. The website will provide a seamless shopping experience, encourage customer engagement through inquiries, and ultimately drive sales for the business.\n\nTimeline:\nThe project is estimated to be completed in 2 weeks , including design, development, testing, and deployment phases.",
         },
       ],
-      //   SocialSharingHeading: "Share This",
-      // SocialSharing: [
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Twitter',
-      // 		icon: <FiTwitter />,
-      // 		url: 'https://twitter.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Instagram',
-      // 		icon: <FiInstagram />,
-      // 		url: 'https://instagram.com/realstoman',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Facebook',
-      // 		icon: <FiFacebook />,
-      // 		url: 'https://facebook.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'LinkedIn',
-      // 		icon: <FiLinkedin />,
-      // 		url: 'https://linkedin.com/',
-      // 	},
-      // 	{
-      // 		id: uuidv4(),
-      // 		name: 'Youtube',
-      // 		icon: <FiYoutube />,
-      // 		url: 'https://www.youtube.com/c/StomanStudio',
-      // 	},
-      // ],
     },
   },
   {
     id: 2,
     title: "Fluffy Town",
-    url: "fluffytown.co.in",
     category: "Web Application",
+    status: "Delivered",
     img: "/images/fluffytown.png",
     ProjectHeader: {
       title: "Fluffy Town",
@@ -162,11 +130,6 @@ export const projectsData = [
           id: uuidv4(),
           title: "Services",
           details: "Import and Exports of Graments",
-        },
-        {
-          id: uuidv4(),
-          title: "Website",
-          details: "https://fluffytown.co.in",
         },
       ],
       ObjectivesHeading: "Objective",
@@ -215,6 +178,7 @@ export const projectsData = [
     title: "VVM Garments",
     url: "https://vvmgarments.netlify.app/",
     category: "Web Application",
+    status: "Delivered",
     img: "/images/vvmgarments.png",
     ProjectHeader: {
       title: "VVM Garments",
@@ -287,6 +251,170 @@ export const projectsData = [
           id: uuidv4(),
           details:
             "Outcome:\nThe project aims to deliver a robust e-commerce website that meets the needs of clients looking to sell their products online. The website will provide clients with an easy-to-use platform to showcase their products, manage inventory, and track sales. The admin dashboard will offer comprehensive tools for managing products, tracking sales performance, and generating reports. Overall, the project aims to enhance clients' online presence and boost their sales through an efficient and user-friendly e-commerce platform.",
+        },
+      ],
+    },
+  },
+  {
+    id: 4,
+    title: "ECRON",
+    url: "https://erconksa.com/",
+    category: "Web Application",
+    status: "Delivered",
+    img: "/images/Ercon-3.png",
+    ProjectHeader: {
+      title: "ECRON",
+      publishDate: "Feb 22, 2025",
+      tags: "UI / Frontend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "ECRON Home Page",
+        img: "/images/Ecron-1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "ECRON Projects Page",
+        img: "/images/Ecron-2.png",
+      },
+      {
+        id: uuidv4(),
+        title: "ECRON Contact Page",
+        img: "/images/Ercon-3.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "ECRON",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "Construction and Engineering",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://erconksa.com/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To create a modern and responsive portfolio website for ECRON using Next.js and Tailwind CSS. The website should reflect the company's professionalism and showcase their projects, career opportunities, and contact information. The design and functionality should align with the client's preferences, ensuring a seamless user experience across all devices.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Next.js", "TailwindCSS", "JavaScript"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "The objective of this project is to develop a modern and responsive portfolio website for ECRON using Next.js and Tailwind CSS. The website should effectively showcase the company's projects, career opportunities, and contact information. The design and functionality should align with the client's preferences, ensuring a seamless user experience across all devices.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Key Features:\n1. Home Page: A visually appealing landing page that introduces the company and its services.\n2. Projects Page: A dedicated section to showcase ECRON's completed and ongoing projects.\n3. Careers Page: A page to list job openings and career opportunities within the company.\n4. About Us Page: Information about the company's history, mission, and values.\n5. Contact Page: A form for visitors to get in touch with ECRON.\n6. Responsive Design: Ensure the website is fully responsive and optimized for all devices.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Technologies Used:\n- Next.js: React framework for building the front-end.\n- Tailwind CSS: Utility-first CSS framework for styling.\n- JavaScript: Programming language for client-side interactions.\n- Vercel: Deployment platform for hosting the website.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Outcome:\nThe project aims to deliver a professional and responsive portfolio website that effectively showcases ECRON's projects and services. The website will provide a seamless user experience, aligning with the client's preferences and enhancing their online presence.",
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    title: "Little Beez",
+    url: "https://little-beez.vercel.app/",
+    category: "Web Application",
+    status: "In Progress",
+    img: "/images/littlebeez-3.png",
+    ProjectHeader: {
+      title: "Little Beez",
+      publishDate: "In Progress",
+      tags: "UI / Frontend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Little Bees Home Page",
+        img: "/images/littlebeez-1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Little Bees About Page",
+        img: "/images/littlebeez-2.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Little Bees Contact Page",
+        img: "/images/littlebeez-3.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Little Bees",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "Childcare and Education",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://little-beez.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "To develop a visually appealing and user-friendly portfolio website for Little Bees using Next.js (TypeScript) and Tailwind CSS. The website should reflect the client's brand identity and provide information about their services, mission, and contact details. The design should be based on the client's preferences, ensuring a seamless and engaging user experience.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Next.js", "TypeScript", "TailwindCSS"],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "The objective of this project is to create a visually appealing and user-friendly portfolio website for Little Bees using Next.js (TypeScript) and Tailwind CSS. The website should effectively communicate the client's brand identity and provide information about their services, mission, and contact details. The design should align with the client's preferences, ensuring a seamless and engaging user experience.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Key Features:\n1. Home Page: A welcoming landing page that introduces Little Bees and their services.\n2. About Us Page: Information about the company's mission, values, and team.\n3. Why Us Page: A section highlighting the unique aspects of Little Bees' services.\n4. Contact Page: A form for visitors to get in touch with Little Bees.\n5. Responsive Design: Ensure the website is fully responsive and optimized for all devices.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Technologies Used:\n- Next.js: React framework for building the front-end.\n- TypeScript: Programming language for type-safe development.\n- Tailwind CSS: Utility-first CSS framework for styling.\n- Hostinger: Deployment platform for hosting the website.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Outcome:\nThe project aims to deliver a visually appealing and user-friendly portfolio website that effectively communicates Little Bees' brand identity and services. The website will provide a seamless user experience, aligning with the client's preferences and enhancing their online presence.",
         },
       ],
     },
