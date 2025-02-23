@@ -23,9 +23,12 @@ function PagesMetaHead({ title, keywords, description }) {
 }
 
 PagesMetaHead.defaultProps = {
-	title: 'Jainth',
-	keywords: 'next.js developer, react developer, web, ui, Full stack developer',
-	description: 'Full stack developer'
+  title: "Jainth | Full Stack Developer & Freelancer",
+  keywords:
+    "Next.js developer, React developer, web developer, UI/UX designer, Full Stack Developer, MERN Stack Developer, freelance web developer, JavaScript expert, TypeScript developer, frontend developer, backend developer, Shopify expert, e-commerce developer, API integration, Tailwind CSS, GraphQL, NestJS, Express.js, MongoDB, PostgreSQL, AWS, Firebase, web app development, custom website, responsive design, mobile-friendly websites, SEO-friendly websites, SaaS development, portfolio websites, business websites, web performance optimization",
+  description:
+    "Experienced Full Stack Developer & Freelancer specializing in Next.js, React, NestJS, and Shopify. I create high-performance, SEO-friendly web applications and e-commerce solutions.",
 };
+
 
 export default PagesMetaHead;
